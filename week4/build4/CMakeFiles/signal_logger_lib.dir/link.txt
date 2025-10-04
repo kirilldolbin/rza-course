@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsignal_logger_lib.a CMakeFiles/signal_logger_lib.dir/signal_logger.cpp.o
+/usr/bin/ranlib libsignal_logger_lib.a

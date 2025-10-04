@@ -7,7 +7,8 @@ namespace week4 {
 
 void TestSignalLogger() {
   // Create a logger that writes to "signal_log.txt"
-  SignalLogger logger("signal_log.txt");
+  const std:: string path;
+  SignalLogger logger(path);
   
   // Log some signal states
   std::vector<int32_t> signal_states = {1, 0, 1, 1, 0, 1, 0, 0, 1};

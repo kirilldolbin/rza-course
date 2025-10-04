@@ -1,0 +1,4 @@
+/home/kilgara/Загрузки/rza-course/week4/build4/CMakeFiles/signal_logger_lib.dir
+/home/kilgara/Загрузки/rza-course/week4/build4/CMakeFiles/signal_logger_test.dir
+/home/kilgara/Загрузки/rza-course/week4/build4/CMakeFiles/edit_cache.dir
+/home/kilgara/Загрузки/rza-course/week4/build4/CMakeFiles/rebuild_cache.dir

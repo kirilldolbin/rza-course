@@ -6,6 +6,12 @@ namespace rza_course {
 namespace week4 {
 
 SignalLogger::SignalLogger(const std::string& filename) : filename_(filename) {
+  
+  if(filename.empty()){
+  std::cerr << "Error: file empty" << filename_ << std::endl;
+    return;
+  }
+  
   log_file_.open(filename_);
   if (!log_file_.is_open()) {
     std::cerr << "Error: Could not open file " << filename_ << std::endl;

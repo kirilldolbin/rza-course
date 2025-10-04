@@ -1,0 +1,2 @@
+/usr/bin/ar qc libdigital_signal_lib.a CMakeFiles/digital_signal_lib.dir/digital_signal.cpp.o
+/usr/bin/ranlib libdigital_signal_lib.a

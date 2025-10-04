@@ -5,7 +5,7 @@ namespace week1 {
 
 // Print hello world message to console
 void PrintHelloWorld() {
-  std::cout << "Hello, world!" << std::endl;
+  std::cout << "Hello, Linux and C++!" << std::endl;
 }
 
 }  // namespace week1

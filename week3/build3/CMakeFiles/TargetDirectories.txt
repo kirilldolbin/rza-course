@@ -1,0 +1,4 @@
+/home/kilgara/Загрузки/rza-course/week3/build3/CMakeFiles/digital_signal_lib.dir
+/home/kilgara/Загрузки/rza-course/week3/build3/CMakeFiles/digital_signal_test.dir
+/home/kilgara/Загрузки/rza-course/week3/build3/CMakeFiles/edit_cache.dir
+/home/kilgara/Загрузки/rza-course/week3/build3/CMakeFiles/rebuild_cache.dir

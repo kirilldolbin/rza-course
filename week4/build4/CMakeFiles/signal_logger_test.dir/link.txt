@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/signal_logger_test.dir/link.d CMakeFiles/signal_logger_test.dir/main.cpp.o -o signal_logger_test  libsignal_logger_lib.a
