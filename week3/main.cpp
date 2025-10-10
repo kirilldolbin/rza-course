@@ -7,10 +7,19 @@ namespace week3 {
 void TestDigitalSignal() {
   // Create a digital signal with initial value 1
   DigitalSignal signal(1);
-  
   std::cout << "Initial value: " << signal.GetValue() << std::endl;
+
+  // IsHigh signal value
+  std::cout << "IsHigh: " << std::boolalpha << signal.IsHigh() << std::endl;
+
+  // Toggle value
+  signal.ToggleValue();
+  std::cout << "After Toggle: " << signal.GetValue() << std::endl;
+
+  // IsHigh signal value
+  std::cout << "IsHigh: " << std::boolalpha << signal.IsHigh() << std::endl;
   
-  // Change the value
+// Change the value
   signal.SetValue(0);
   std::cout << "After setting to 0: " << signal.GetValue() << std::endl;
   

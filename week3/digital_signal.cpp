@@ -7,8 +7,19 @@ DigitalSignal::DigitalSignal(int32_t initial_value) : value_(initial_value) {}
 
 DigitalSignal::~DigitalSignal() = default;
 
+void DigitalSignal::ToggleValue() {
+    value_ = -value_; 
+}
+
 void DigitalSignal::SetValue(int32_t value) {
   value_ = value;
+}
+
+bool DigitalSignal::IsHigh() const{
+  if (value_==1){
+  return true;} else{
+    return false;
+  }
 }
 
 int32_t DigitalSignal::GetValue() const {
