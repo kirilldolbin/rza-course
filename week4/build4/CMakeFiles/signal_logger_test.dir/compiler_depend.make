@@ -25,6 +25,7 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/bits/select.h \
   /usr/include/bits/setjmp.h \
   /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/stdlib-float.h \
   /usr/include/bits/struct_mutex.h \
@@ -75,6 +76,7 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/c++/13/bits/basic_string.tcc \
   /usr/include/c++/13/bits/char_traits.h \
   /usr/include/c++/13/bits/charconv.h \
+  /usr/include/c++/13/bits/chrono.h \
   /usr/include/c++/13/bits/codecvt.h \
   /usr/include/c++/13/bits/concept_check.h \
   /usr/include/c++/13/bits/cpp_type_traits.h \
@@ -101,6 +103,7 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/c++/13/bits/new_allocator.h \
   /usr/include/c++/13/bits/ostream.tcc \
   /usr/include/c++/13/bits/ostream_insert.h \
+  /usr/include/c++/13/bits/parse_numbers.h \
   /usr/include/c++/13/bits/postypes.h \
   /usr/include/c++/13/bits/predefined_ops.h \
   /usr/include/c++/13/bits/ptr_traits.h \
@@ -125,9 +128,12 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/c++/13/bits/vector.tcc \
   /usr/include/c++/13/cctype \
   /usr/include/c++/13/cerrno \
+  /usr/include/c++/13/chrono \
   /usr/include/c++/13/clocale \
+  /usr/include/c++/13/cstdint \
   /usr/include/c++/13/cstdio \
   /usr/include/c++/13/cstdlib \
+  /usr/include/c++/13/ctime \
   /usr/include/c++/13/cwchar \
   /usr/include/c++/13/cwctype \
   /usr/include/c++/13/debug/assertions.h \
@@ -144,8 +150,10 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/c++/13/iosfwd \
   /usr/include/c++/13/iostream \
   /usr/include/c++/13/istream \
+  /usr/include/c++/13/limits \
   /usr/include/c++/13/new \
   /usr/include/c++/13/ostream \
+  /usr/include/c++/13/ratio \
   /usr/include/c++/13/stdexcept \
   /usr/include/c++/13/streambuf \
   /usr/include/c++/13/string \
@@ -178,6 +186,7 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/pthread.h \
   /usr/include/sched.h \
   /usr/include/stdc-predef.h \
+  /usr/include/stdint.h \
   /usr/include/stdio.h \
   /usr/include/stdlib.h \
   /usr/include/sys/cdefs.h \
@@ -188,7 +197,8 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: /home/kilgara/Загрузки/rza
   /usr/include/wchar.h \
   /usr/include/wctype.h \
   /usr/lib64/gcc/x86_64-alt-linux/13/include/stdarg.h \
-  /usr/lib64/gcc/x86_64-alt-linux/13/include/stddef.h
+  /usr/lib64/gcc/x86_64-alt-linux/13/include/stddef.h \
+  /usr/lib64/gcc/x86_64-alt-linux/13/include/stdint.h
 
 signal_logger_test: /lib64/ld-linux-x86-64.so.2 \
   /lib64/libc.so.6 \
@@ -242,6 +252,8 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o:
 
 /usr/include/stdio.h:
 
+/usr/include/stdint.h:
+
 /usr/include/stdc-predef.h:
 
 /usr/include/sched.h:
@@ -278,6 +290,8 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o:
 
 /usr/include/c++/13/stdexcept:
 
+/usr/include/c++/13/limits:
+
 /usr/include/c++/13/istream:
 
 /usr/include/c++/13/iostream:
@@ -308,6 +322,18 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o:
 
 /usr/include/c++/13/cwchar:
 
+/usr/include/c++/13/ctime:
+
+/usr/include/c++/13/cstdlib:
+
+/usr/include/c++/13/cstdint:
+
+/usr/include/c++/13/x86_64-alt-linux/bits/os_defines.h:
+
+/usr/include/c++/13/clocale:
+
+/usr/include/c++/13/chrono:
+
 /usr/include/c++/13/x86_64-alt-linux/bits/c++io.h:
 
 /usr/include/bits/types/timer_t.h:
@@ -336,15 +362,17 @@ libsignal_logger_lib.a:
 
 /usr/include/bits/types/struct_FILE.h:
 
+/usr/include/c++/13/bits/chrono.h:
+
+/usr/include/c++/13/ratio:
+
 /usr/include/c++/13/cwctype:
 
 /usr/include/bits/types/wint_t.h:
 
 /usr/include/bits/types/locale_t.h:
 
-/usr/include/bits/typesizes.h:
-
-/usr/include/bits/uintn-identity.h:
+/usr/include/c++/13/bits/parse_numbers.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
@@ -376,6 +404,16 @@ libsignal_logger_lib.a:
 
 /usr/include/c++/13/bits/ostream.tcc:
 
+/usr/include/c++/13/x86_64-alt-linux/bits/gthr.h:
+
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/sys/select.h:
+
+/usr/include/c++/13/bits/allocator.h:
+
+/usr/include/c++/13/bits/stl_bvector.h:
+
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/time64.h:
@@ -389,10 +427,6 @@ libsignal_logger_lib.a:
 /usr/include/c++/13/string:
 
 /usr/include/bits/byteswap.h:
-
-/usr/include/c++/13/x86_64-alt-linux/bits/os_defines.h:
-
-/usr/include/c++/13/clocale:
 
 /home/kilgara/Загрузки/rza-course/week4/signal_logger.h:
 
@@ -478,19 +512,11 @@ libsignal_logger_lib.a:
 
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/c++/13/cstdlib:
+/usr/include/bits/typesizes.h:
+
+/usr/include/bits/uintn-identity.h:
 
 /usr/include/bits/struct_mutex.h:
-
-/usr/include/c++/13/x86_64-alt-linux/bits/gthr.h:
-
-/usr/include/bits/thread-shared-types.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/c++/13/bits/allocator.h:
-
-/usr/include/c++/13/bits/stl_bvector.h:
 
 /usr/include/bits/timesize.h:
 
@@ -558,9 +584,9 @@ libsignal_logger_lib.a:
 
 /usr/include/c++/13/fstream:
 
-/usr/include/c++/13/bits/charconv.h:
-
 /usr/include/c++/13/cstdio:
+
+/usr/include/c++/13/bits/charconv.h:
 
 /usr/include/c++/13/bits/stl_pair.h:
 
@@ -573,6 +599,8 @@ libsignal_logger_lib.a:
 /usr/include/c++/13/bits/exception_ptr.h:
 
 /usr/include/c++/13/bits/fstream.tcc:
+
+/usr/include/bits/stdint-uintn.h:
 
 /usr/include/c++/13/bits/refwrap.h:
 
@@ -607,6 +635,8 @@ libsignal_logger_lib.a:
 /usr/include/c++/13/bits/std_abs.h:
 
 /usr/include/c++/13/bits/stl_algobase.h:
+
+/usr/lib64/gcc/x86_64-alt-linux/13/include/stdint.h:
 
 /usr/include/asm-generic/errno.h:
 

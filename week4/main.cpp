@@ -7,7 +7,7 @@ namespace week4 {
 
 void TestSignalLogger() {
   // Create a logger that writes to "signal_log.txt"
-  const std:: string path;
+  const std:: string path("signal_log.txt");
   SignalLogger logger(path);
   
   // Log some signal states
@@ -22,6 +22,9 @@ void TestSignalLogger() {
   
   // Log more states
   logger.LogSignalStates(signal_states);
+
+   logger.LogSignalWithTimestamp(0);
+    logger.LogSignalWithTimestamp(1);
   
   std::cout << "Signal log written to signal_log.txt" << std::endl;
 }

@@ -1,6 +1,8 @@
 #include "signal_logger.h"
 #include <iostream>
 #include <vector>
+#include <chrono>
+#include <iomanip>
 
 namespace rza_course {
 namespace week4 {
@@ -31,6 +33,22 @@ void SignalLogger::LogSignalState(int32_t state) {
     std::cerr << "Error: Log file is not open" << std::endl;
   }
 }
+
+void SignalLogger::LogSignalWithTimestamp(int32_t state) {
+  if (log_file_.is_open()) {
+    const auto ts = std::chrono::system_clock::now();
+    const auto time_t = std::chrono::system_clock::to_time_t(ts);
+    std::tm tm;
+    localtime_r(&time_t, &tm);
+    char timestamp[20];
+    std::strftime(timestamp, sizeof(timestamp), "%Y-%m-%d %H:%M:%S", &tm);
+   log_file_ << "Time(" << timestamp << ") Value: " << state << std::endl;
+  } else {
+    std::cerr << "Error: Log file is not open" << std::endl;
+  }
+}
+
+
 
 void SignalLogger::LogSignalStates(const std::vector<int32_t>& states) {
   if (log_file_.is_open()) {

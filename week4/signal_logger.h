@@ -4,6 +4,7 @@
 #include <string>
 #include <fstream>
 #include <vector>
+#include <chrono>
 
 namespace rza_course {
 namespace week4 {
@@ -22,6 +23,8 @@ class SignalLogger {
   
   // Log multiple signal states
   void LogSignalStates(const std::vector<int32_t>& states);
+
+  void LogSignalWithTimestamp(int32_t state);
   
  private:
   std::ofstream log_file_;

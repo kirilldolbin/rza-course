@@ -130,4 +130,10 @@ CMakeFiles/signal_logger_test.dir/main.cpp.o: \
  /usr/include/c++/13/fstream /usr/include/c++/13/bits/codecvt.h \
  /usr/include/c++/13/x86_64-alt-linux/bits/basic_file.h \
  /usr/include/c++/13/x86_64-alt-linux/bits/c++io.h \
- /usr/include/c++/13/bits/fstream.tcc
+ /usr/include/c++/13/bits/fstream.tcc /usr/include/c++/13/chrono \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint \
+ /usr/lib64/gcc/x86_64-alt-linux/13/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/13/limits /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h

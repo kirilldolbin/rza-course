@@ -127,4 +127,16 @@ CMakeFiles/signal_logger_lib.dir/signal_logger.cpp.o: \
  /usr/include/c++/13/bits/stl_uninitialized.h \
  /usr/include/c++/13/bits/stl_vector.h \
  /usr/include/c++/13/bits/stl_bvector.h \
- /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/iostream
+ /usr/include/c++/13/bits/vector.tcc /usr/include/c++/13/chrono \
+ /usr/include/c++/13/bits/chrono.h /usr/include/c++/13/ratio \
+ /usr/include/c++/13/cstdint \
+ /usr/lib64/gcc/x86_64-alt-linux/13/include/stdint.h \
+ /usr/include/stdint.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/c++/13/limits /usr/include/c++/13/ctime \
+ /usr/include/c++/13/bits/parse_numbers.h /usr/include/c++/13/iostream \
+ /usr/include/c++/13/iomanip /usr/include/c++/13/locale \
+ /usr/include/c++/13/bits/locale_facets_nonio.h \
+ /usr/include/c++/13/x86_64-alt-linux/bits/time_members.h \
+ /usr/include/c++/13/x86_64-alt-linux/bits/messages_members.h \
+ /usr/include/libintl.h /usr/include/c++/13/bits/locale_facets_nonio.tcc \
+ /usr/include/c++/13/bits/locale_conv.h
